@@ -1,8 +1,6 @@
-# Android progressbars
+# Android progressbars [ ![Download](https://api.bintray.com/packages/sjowl/maven/progressbar/images/download.svg) ](https://bintray.com/sjowl/maven/progressbar/_latestVersion)
 
-[ ![Download](https://api.bintray.com/packages/sjowl/maven/progressbar/images/download.svg) ](https://bintray.com/sjowl/maven/progressbar/_latestVersion)
-
-** Gradle **
+### Gradle
 ```Gradle
 repositories {
     maven {url  "https://dl.bintray.com/sjowl/maven" }
@@ -11,7 +9,7 @@ repositories {
 compile 'au.sjowl.libs.view.progressbar:progressbar:0.0.1'
 ```
 
-** PieProgressBar **
+### PieProgressBar
 ```xml
 <au.sjowl.lib.view.progressbar.PieProgressView
         ...
