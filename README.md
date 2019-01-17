@@ -6,7 +6,7 @@ repositories {
     maven {url  "https://dl.bintray.com/sjowl/maven" }
 }
 
-compile 'au.sjowl.libs.view.progressbar:progressbar:0.0.1'
+implementation 'au.sjowl.libs.view.progressbar:progressbar:0.0.1'
 ```
 
 ### PieProgressBar
