@@ -1,7 +1,6 @@
-# Triangles view for Android
-Widget with random triangles
+# Android progressbars
 
-[ ![Download](https://api.bintray.com/packages/sjowl/maven/trianglesview/images/download.svg) ](https://bintray.com/sjowl/maven/trianglesview/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/sjowl/maven/progressbar/images/download.svg) ](https://bintray.com/sjowl/maven/progressbar/_latestVersion)
 
 ** Gradle **
 ```Gradle
@@ -9,15 +8,18 @@ repositories {
     maven {url  "https://dl.bintray.com/sjowl/maven" }
 }
 
-compile 'au.sjowl.libs.view.triangularview:trianglesview:0.0.1'
+compile 'au.sjowl.libs.view.progressbar:progressbar:0.0.1'
 ```
 
-** Usage **
+** PieProgressBar **
 ```xml
-<au.sjowl.libs.mesh.MeshView
+<au.sjowl.lib.view.progressbar.PieProgressView
         ...
-        app:mv_baseColor="#990000"
-        app:mv_dots="100" />
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:colorBackground="@color/colorPrimary"
+        app:colorProgress="@color/colorAccent"
+        app:progress="10" />
 ```
 
-![alt text](./demo.png)
+![alt text](./PieProgressBar.png)

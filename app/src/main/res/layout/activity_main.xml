@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <au.sjowl.lib.twolinestextview.PieProgressView
+    <au.sjowl.lib.view.progressbar.PieProgressView
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:indeterminate="false"
-        app:colorBackground="@color/colorPrimary"
-        app:colorProgress="@color/colorAccent"
+        app:colorBackground="#CAC8C8"
+        app:colorProgress="#087A00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
