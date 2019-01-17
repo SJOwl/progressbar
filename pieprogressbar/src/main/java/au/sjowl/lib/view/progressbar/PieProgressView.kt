@@ -14,12 +14,10 @@ class PieProgressView : View {
 
     private val progressPaint = Paint().apply {
         style = Paint.Style.FILL
-        color = Color.parseColor("#fa000f")
     }
 
     private val backgroundPaint = Paint().apply {
         style = Paint.Style.FILL
-        color = Color.parseColor("#000000")
     }
 
     private val oval = RectF()
